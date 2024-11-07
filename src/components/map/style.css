@@ -1,0 +1,27 @@
+.google-map {
+  margin-bottom: 0;
+  margin-bottom: 50px;
+}
+
+.map-container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 70px;
+
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.logo_banner {
+  height: 20%;
+  width: 80%;
+}
+
+@media (max-width: 600px) {
+  .google-map {
+    height: 30vh;
+  }
+}

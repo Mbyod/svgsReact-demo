@@ -8,6 +8,7 @@ const Artist = () => {
   const { id } = useParams();
   const artist = artistList[id];
   const isLinks = artist.links;
+
   return (
     <>
       <Navbar />
