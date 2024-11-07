@@ -1,6 +1,7 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import { useState } from "react";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import MainPage from "./pages/MainPage";
 import Home from "./pages/Home";
